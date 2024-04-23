@@ -1,0 +1,82 @@
+/* Style untuk body */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #B7B88D;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style untuk header */
+header {
+    background-color: #333;
+    color: #B7B88D;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/* Style untuk section */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Style untuk galeri foto */
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Style untuk setiap foto */
+.foto-container {
+    max-width: 200px; /* Atur lebar maksimum untuk kontainer */
+    margin: 0 auto; /* Pusatkan kontainer */
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.foto p {
+    margin-top: 10px;
+    color: #666;
+}
+
+
+
+
+
+/* Style untuk contact */
+#contact {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style untuk alamat dan email */
+#contact h4 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+#contact h5 {
+    margin: 5px 0;
+    font-size: 16px;
+}
